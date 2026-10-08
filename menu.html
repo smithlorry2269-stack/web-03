@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.classList.add('js')</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu &amp; Order &mdash; Crumb Bakery | Free Bootstrap 5 Template</title>
+  <meta name="description" content="Browse the full Crumb bakery menu — breads, pastries, cakes and coffee — and build a pickup or custom-cake order online. Free Bootstrap 5 template by uiCookies.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header>
+    <nav class="site-nav navbar navbar-expand-lg" aria-label="Primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true"></span> Crumb
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primary-nav"
+                aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="primary-nav">
+          <ul class="navbar-nav mx-lg-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#story">Our Story</a></li>
+            <li class="nav-item"><a class="nav-link" href="#full-menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#bakers">Bakers</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#visit">Visit</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#order">Order</a></li>
+          </ul>
+          <div class="nav-actions">
+            <a href="#order" class="bag-pill" aria-label="View your bag">
+              🛍️ Bag <span class="bag-count" aria-hidden="true">0</span>
+            </a>
+            <a href="index.html#visit" class="btn btn-outline-crust btn-sm">Visit us</a>
+            <a href="#order" class="btn btn-berry btn-sm">Order online</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ PAGE HERO ============ -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb-crumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span><span>Menu &amp; Order</span>
+        </nav>
+        <h1>The full menu, <em>ready to order</em></h1>
+        <p>Everything we bake this week, in one place. Add what you fancy to your bag and pick a time &mdash; we&rsquo;ll have it boxed and warm at the counter.</p>
+      </div>
+    </section>
+
+    <!-- ============ FULL MENU ============ -->
+    <section class="section" id="full-menu">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Breads -->
+          <div class="col-lg-6 reveal">
+            <span class="eyebrow">Breads</span>
+            <h2 class="section-title" style="font-size:2rem">Loaves &amp; savouries</h2>
+            <div class="menu-list" style="grid-template-columns:1fr">
+              <div class="menu-item">
+                <span class="mi-name">Country Sourdough</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$8</span>
+                <span class="mi-desc">48-hour naturally leavened, blistered crust, open crumb.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Seeded Multigrain</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$7</span>
+                <span class="mi-desc">Sunflower, flax and millet in a soft sandwich loaf.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Rustic Baguette</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$4.50</span>
+                <span class="mi-desc">Shattering crust, custardy interior. Baked twice daily.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Honey Whole Wheat</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$6.50</span>
+                <span class="mi-desc">Stone-milled wheat with local wildflower honey.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Rosemary Focaccia</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$9</span>
+                <span class="mi-desc">Olive-oil rich, dimpled, flaked with sea salt.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Cinnamon Raisin Loaf</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$7.50</span>
+                <span class="mi-desc">Swirled with Ceylon cinnamon and rum-soaked raisins.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pastries -->
+          <div class="col-lg-6 reveal d1">
+            <span class="eyebrow">Pastries</span>
+            <h2 class="section-title" style="font-size:2rem">Morning viennoiserie</h2>
+            <div class="menu-list" style="grid-template-columns:1fr">
+              <div class="menu-item">
+                <span class="mi-name">Butter Croissant</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$4</span>
+                <span class="mi-desc">27 folds of European butter, laminated by hand.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Pain au Chocolat</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$4.75</span>
+                <span class="mi-desc">Two batons of 64% dark chocolate in flaky dough.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Almond Croissant</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$5.25</span>
+                <span class="mi-desc">Frangipane filled and topped with toasted almonds.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Morning Bun</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$4.50</span>
+                <span class="mi-desc">Croissant dough in orange-scented cinnamon sugar.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Kouign-Amann</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$5.50</span>
+                <span class="mi-desc">Caramelised, crackly Breton butter pastry.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Seasonal Fruit Danish</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$5</span>
+                <span class="mi-desc">Vanilla custard and whatever&rsquo;s ripe this week.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cakes -->
+          <div class="col-lg-6 reveal">
+            <span class="eyebrow">Cakes</span>
+            <h2 class="section-title" style="font-size:2rem">Slices &amp; whole cakes</h2>
+            <div class="menu-list" style="grid-template-columns:1fr">
+              <div class="menu-item">
+                <span class="mi-name">Vanilla Bean Layer</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$7 / $52</span>
+                <span class="mi-desc">Madagascar vanilla sponge, silky buttercream.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Dark Chocolate Fudge</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$7.50 / $56</span>
+                <span class="mi-desc">Triple-layer devil&rsquo;s food with glossy ganache.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Lemon &amp; Raspberry</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$7.50 / $54</span>
+                <span class="mi-desc">Lemon curd and fresh raspberry between airy sponge.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Spiced Carrot Cake</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$6.75 / $50</span>
+                <span class="mi-desc">Walnuts, pecans, brown-butter cream cheese frost.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Classic Cheesecake</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$7</span>
+                <span class="mi-desc">New-York style on a brown-butter graham base.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Red Velvet</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$7 / $52</span>
+                <span class="mi-desc">Cocoa-kissed crumb, vanilla cream cheese layers.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coffee -->
+          <div class="col-lg-6 reveal d1">
+            <span class="eyebrow">Coffee &amp; drinks</span>
+            <h2 class="section-title" style="font-size:2rem">From the espresso bar</h2>
+            <div class="menu-list" style="grid-template-columns:1fr">
+              <div class="menu-item">
+                <span class="mi-name">Espresso</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$3</span>
+                <span class="mi-desc">House seasonal blend, roasted up the river.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Cappuccino</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$4.50</span>
+                <span class="mi-desc">Double shot, velvet microfoam, proper and dry-ish.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Flat White</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$4.75</span>
+                <span class="mi-desc">Silky and strong &mdash; the baristas&rsquo; default.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Pour Over</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$5</span>
+                <span class="mi-desc">Single-origin, hand-brewed to order.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Masala Chai Latte</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$5</span>
+                <span class="mi-desc">House-steeped spiced tea, steamed whole milk.</span>
+              </div>
+              <div class="menu-item">
+                <span class="mi-name">Drinking Chocolate</span><span class="mi-lead" aria-hidden="true"></span><span class="mi-price">$4.50</span>
+                <span class="mi-desc">Thick, dark and Parisian &mdash; melted 64% couverture.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUICK ADD ============ -->
+    <section class="section products" id="quick-add">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="eyebrow center">Quick add</span>
+          <h2 class="section-title">Popular picks for pickup</h2>
+          <p class="lead-muted center mx-auto">Tap to drop today&rsquo;s favourites straight into your bag, then finish up in the order form below.</p>
+        </div>
+        <div class="product-grid mt-section">
+          <article class="product-card reveal">
+            <div class="pc-media"><img src="img/product-croissant.jpg" width="640" height="480" loading="lazy" alt="A flaky golden butter croissant"></div>
+            <div class="pc-body">
+              <h3>Butter Croissant</h3>
+              <p class="pc-desc">Shattering, honeycomb crumb from overnight lamination.</p>
+              <div class="pc-foot">
+                <span class="pc-price">$4.00</span>
+                <button class="add-btn menu-add" data-id="croissant" data-name="Butter Croissant" data-price="4"><span aria-hidden="true">＋</span> <span class="add-label">Add to bag</span></button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card reveal d1">
+            <div class="pc-media"><img src="img/product-sourdough.jpg" width="640" height="480" loading="lazy" alt="A round country sourdough loaf"></div>
+            <div class="pc-body">
+              <h3>Country Sourdough</h3>
+              <p class="pc-desc">48-hour wild-yeast loaf with a crackling crust.</p>
+              <div class="pc-foot">
+                <span class="pc-price">$8.00</span>
+                <button class="add-btn menu-add" data-id="sourdough" data-name="Country Sourdough" data-price="8"><span aria-hidden="true">＋</span> <span class="add-label">Add to bag</span></button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card reveal d2">
+            <div class="pc-media"><img src="img/product-morning-bun.jpg" width="640" height="480" loading="lazy" alt="A cinnamon-sugar morning bun"></div>
+            <div class="pc-body">
+              <h3>Cinnamon Morning Bun</h3>
+              <p class="pc-desc">Orange zest and cinnamon sugar, caramelised edges.</p>
+              <div class="pc-foot">
+                <span class="pc-price">$4.50</span>
+                <button class="add-btn menu-add" data-id="morning-bun" data-name="Cinnamon Morning Bun" data-price="4.5"><span aria-hidden="true">＋</span> <span class="add-label">Add to bag</span></button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ORDER FORM ============ -->
+    <section class="section" id="order">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="eyebrow center">Place your order</span>
+          <h2 class="section-title">Pickup &amp; custom-cake requests</h2>
+          <p class="lead-muted center mx-auto">Same-day pickup for anything in the case; custom cakes need 72 hours&rsquo; notice. We&rsquo;ll email to confirm your time.</p>
+        </div>
+
+        <div class="row g-4 mt-4">
+          <div class="col-lg-7 reveal">
+            <form class="order-form" id="order-form" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="of-name">Full name</label>
+                  <input type="text" class="form-control" id="of-name" name="name" required autocomplete="name">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="of-email">Email</label>
+                  <input type="email" class="form-control" id="of-email" name="email" required autocomplete="email">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="of-phone">Phone</label>
+                  <input type="tel" class="form-control" id="of-phone" name="phone" autocomplete="tel">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="of-location">Pickup location</label>
+                  <select class="form-select" id="of-location" name="location" required>
+                    <option value="">Choose a shop&hellip;</option>
+                    <option>Crumb Bakehouse &mdash; Mill District</option>
+                    <option>Crumb Corner Café &mdash; Riverside</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="of-date">Pickup date</label>
+                  <input type="date" class="form-control" id="of-date" name="date" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="of-time">Preferred time</label>
+                  <select class="form-select" id="of-time" name="time" required>
+                    <option value="">Choose a time&hellip;</option>
+                    <option>Morning (7:00 &ndash; 10:00)</option>
+                    <option>Midday (10:00 &ndash; 13:00)</option>
+                    <option>Afternoon (13:00 &ndash; 16:00)</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="of-notes">Notes &amp; custom-cake details</label>
+                  <textarea class="form-control" id="of-notes" name="notes" placeholder="Occasion, flavours, dietary needs, inscription&hellip;"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-berry btn-lg">Request order</button>
+                  <p class="news-msg" id="order-result" role="status" aria-live="polite"></p>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-5 reveal d1">
+            <div class="order-summary">
+              <h3>Your bag</h3>
+              <ul class="order-lines" id="order-lines">
+                <li class="empty">Your bag is empty — add something delicious above.</li>
+              </ul>
+              <div class="order-total"><span>Total</span><span id="order-total-val">$0.00</span></div>
+              <p style="font-size:.82rem;color:var(--ink-soft);margin-top:1rem">This is a demo order form. No payment is taken and nothing is charged &mdash; a Crumb baker would confirm your order by email.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <span class="footer-brand"><span class="brand-mark" aria-hidden="true"></span> Crumb</span>
+          <p>A neighbourhood bakehouse in Portland. Real bread, proper pastry and cakes worth gathering for &mdash; baked from scratch since 2009.</p>
+          <div class="footer-social">
+            <a href="index.html#gallery" aria-label="Crumb on Instagram">📷</a>
+            <a href="index.html#gallery" aria-label="Crumb on Facebook">👍</a>
+            <a href="index.html#gallery" aria-label="Crumb on Pinterest">📌</a>
+            <a href="index.html#newsletter" aria-label="Crumb newsletter">✉️</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#story">Our story</a></li>
+            <li><a href="#full-menu">Menu</a></li>
+            <li><a href="index.html#bakers">The bakers</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4>Order</h4>
+          <ul class="footer-links">
+            <li><a href="#order">Order online</a></li>
+            <li><a href="#order">Custom cakes</a></li>
+            <li><a href="#order">Party trays</a></li>
+            <li><a href="index.html#visit">Pickup &amp; hours</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4>Visit the bakehouse</h4>
+          <p><strong style="color:var(--cream)">Crumb Bakehouse</strong><br>214 Flour Mill Lane, Portland OR 97209<br>Mon&ndash;Fri 7:00&ndash;18:00 · Weekends 8:00&ndash;16:00</p>
+          <p><a href="#order" class="btn btn-berry btn-sm">Start an order</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Crumb Bakehouse. Baked with love in Portland.</span>
+        <span>Free Bootstrap 5 template by <a href="https://uicookies.com/" target="_blank" rel="noopener">uiCookies</a>.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast-note" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/vendor/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
